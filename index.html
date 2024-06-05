@@ -6,21 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gabriel Simões">
     <title>ONG Focinhos SA</title>
+
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/header.css">
+
+    <link rel="stylesheet" href="/css/nav-menu.css">
+
+    <link rel="stylesheet" href="/css/footer.css">
 </head>
 
 <body>
     <header>
-        <img src="" alt="Logo da ONG">
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Redes Sociais</li>
-                <li>Conheça Relatos</li>
-                <li>Conheça Nosso Bazar</li>
-                <li>O Que Preciso Para Adotar?</li>
-                <li>Quem Somos?</li>
-            </ul>
-        </nav>
+        <img src="/img/logos/logo.png" alt="Logo da ONG">
+        <div class="container">
+            <input id="toggle" type="checkbox">
+        
+            <label class="toggle-container" for="toggle">
+                <span class="button button-toggle"></span>
+                <span class="lines-menu"></span>
+            </label>
+        
+            <nav class="nav">
+                <a class="nav-item" href="#banner">Home</a>
+                <a class="nav-item" href="#social-media">Redes Sociais</a>
+                <a class="nav-item" href="#reports">Conheça Relatos</a>
+                <a class="nav-item" href="#bazaar">Conheça Nosso Bazar</a>
+                <a class="nav-item" href="#whats-need">O Que Preciso Para Adotar?</a>
+                <a class="nav-item" href="#who-we-are">Quem Somos?</a>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -141,6 +155,8 @@
             Todos os direitos reservados © 2024
         </section>
     </footer>
+
+    <script src="/js/nav-menu.js"></script>
 </body>
 
 </html>

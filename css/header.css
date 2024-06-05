@@ -1,0 +1,11 @@
+header {
+    margin: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header img{
+    margin-top: 0.5em;
+}
