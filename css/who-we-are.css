@@ -1,0 +1,17 @@
+#who-we-are{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#who-we-are h1{
+    text-align: center;
+    margin: 1.5em;
+}
+
+#who-we-are article p{
+    text-align: center;
+    margin: 1em;
+}

@@ -1,0 +1,25 @@
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1em 1em 0 1em;
+}
+
+#banner div {
+    max-width: 400px;
+}
+
+#banner div h1 {
+    max-width: 400px;
+    margin-bottom: 3em;
+}
+
+#banner div button{
+    border-radius: .3em;
+    background-color: var(--emphasis-color);
+}
+
+#banner img{
+    max-width: 180px;
+    width: 38%;
+}

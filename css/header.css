@@ -1,9 +1,10 @@
 header {
-    margin: 1em;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
+    background-color: var(--secondary-background);
+    padding: 1em;
 }
 
 header img{

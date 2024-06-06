@@ -38,7 +38,7 @@
 }
 
 #toggle:checked ~ .nav .nav-item {
-    color: #F81121;
+    color: var(--emphasis-color);
     letter-spacing: 0;
     height: 40px;
     line-height: 40px;
@@ -72,7 +72,7 @@
     right: 0;
     width: 100%;
     height: 2px;
-    background-color: #F81121;
+    background-color: var(--emphasis-color);
     border-radius: 5px;
     transition: 0.5s;
 }
@@ -84,7 +84,7 @@
     right: 0;
     width: 100%;
     height: 2px;
-    background-color: #F81121;
+    background-color: var(--emphasis-color);
     border-radius: 5px;
     transition: 0.5s;
 }
@@ -116,7 +116,7 @@
     right: 0;
     width: 100%;
     height: 2px;
-    background-color: #F81121;
+    background-color: var(--emphasis-color);
     border-radius: 5px;
     transition: 0.5s;
 }
@@ -146,6 +146,7 @@
     transform: scaleY(0.2);
     text-align: center;
     width: 100%;
+    text-decoration: none;
 }
 
 .nav-item:nth-child(n) {
@@ -157,6 +158,6 @@
     content: '';
     width: 15%;
     height: 2px;
-    background-color: #F81121;
+    background-color: var(--emphasis-color);
     transform: translateY(50%) scaleY(5);
 }

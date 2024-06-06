@@ -1,0 +1,34 @@
+#reports h1{
+    text-align: center;
+    margin: 1.5em;
+}
+
+#reports div{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#reports div article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-radius: .7em;
+    max-width: 23em;
+    margin: 2em;
+    padding: 1em;
+    background-color: var(--secondary-background);
+}
+
+#reports div article img{
+    border-radius: .7em;
+    border: solid 1px var(--text-color);
+    width: 80%;
+}

@@ -1,3 +1,10 @@
+:root {
+    --text-color: #000;
+    --emphasis-text-color: #F81121;
+    --emphasis-color: #F81121;
+    --secondary-background: #D3D3D3;
+}
+
 * {
     margin: 0;
     padding: 0;

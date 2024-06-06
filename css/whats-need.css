@@ -1,0 +1,26 @@
+#whats-need{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#whats-need h1{
+    text-align: center;
+    margin: 1.5em;
+}
+
+#whats-need ul{
+    list-style: none;
+    max-width: 300px;
+}
+
+#whats-need ul li{
+    display: flex;
+}
+
+#whats-need ul li img{
+    width: 32px;
+    height: 32px;
+    margin: 0 .57em;
+}
