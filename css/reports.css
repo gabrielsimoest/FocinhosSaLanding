@@ -1,34 +1,97 @@
-#reports h1{
-    text-align: center;
-    margin: 1.5em;
+#reports div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+  flex-wrap: wrap;
 }
 
-#reports div{
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-direction: row;
-    flex-wrap: wrap;
+#reports div article {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
 }
 
-#reports div article{
-    display: flex;
+@media screen and (max-width: 480px) {
+  #reports div article {
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-
-    border-radius: .7em;
-    max-width: 23em;
-    margin: 2em;
-    padding: 1em;
-    background-color: var(--secondary-background);
+  }
+  #reports div article.invert {
+    flex-direction: column !important;
+  }
 }
 
-#reports div article img{
-    border-radius: .7em;
-    border: solid 1px var(--text-color);
-    width: 80%;
+#reports div article.invert {
+  flex-direction: row-reverse;
+}
+
+#reports div article img {
+  border-radius: 8px;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.dog-image-wrapper {
+  z-index: -1;
+  position: relative;
+  width: auto;
+  -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.29);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 350px;
+}
+
+.dog-info {
+  position: absolute;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.dog-info p {
+  margin-left: 16px;
+}
+
+.dog-info span {
+  font-size: 12px;
+  color: #ccc;
+  margin-left: 16px;
+}
+
+.dog-testimony {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.dog-testimony p {
+  font-size: 20px;
+  max-width: 50%;
+  font-style: italic;
+  color: #333333;
+}
+
+@media screen and (max-width: 1297px) {
+  .dog-testimony p {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .dog-testimony p {
+    max-width: 100%;
+  }
 }

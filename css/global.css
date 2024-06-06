@@ -7,9 +7,25 @@
   --secondary-background: #d3d3d3;
 }
 
-main {
-  padding-right: 10rem;
-  padding-left: 10rem;
+@media screen and (min-width: 1297px) {
+  body {
+    padding-right: 15rem;
+    padding-left: 15rem;
+  }
+}
+
+@media screen and (max-width: 1297px) {
+  body {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
 }
 
 body {
@@ -24,5 +40,9 @@ body {
   font: inherit;
   font-family: "Source Sans 3", sans-serif;
   vertical-align: baseline;
-  text-transform: uppercase;
+}
+.section-title {
+  text-align: center;
+  margin: 1.5em;
+  font-size: 24px;
 }

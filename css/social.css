@@ -1,22 +1,26 @@
-#social-media h1{
-    text-align: center;
-    margin: 1.5em;
+#social-media h1 {
+  text-align: center;
+  margin: 1.5em;
 }
 
-#social-media ul{
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    flex-direction: row;
+#social-media ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
 
-    list-style: none;
+  list-style: none;
 }
 
-#social-media ul li img{
-    width: 11em;
+#social-media p {
+  color: #333;
 }
 
-#social-media ul li p{
-    text-align: center;
+#social-media ul li img {
+  width: 11em;
+}
+
+#social-media ul li p {
+  text-align: center;
 }

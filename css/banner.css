@@ -1,25 +1,37 @@
-#banner{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 1em 1em 0 1em;
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1em 1em 0 1em;
+  gap: 16px;
 }
 
 #banner div {
-    max-width: 400px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 #banner div h1 {
-    max-width: 400px;
-    margin-bottom: 3em;
+  max-width: 400px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-#banner div button{
-    border-radius: .3em;
-    background-color: var(--emphasis-color);
+#banner div a {
+  text-decoration: none;
+  border-radius: 0.3em;
+  display: inline-flex;
+  gap: 16px;
+  background-color: var(--emphasis-color);
+  padding: 16px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
 }
 
-#banner img{
-    max-width: 180px;
-    width: 38%;
+#banner img {
+  max-width: 180px;
+  width: 38%;
 }

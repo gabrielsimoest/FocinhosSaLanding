@@ -1,27 +1,27 @@
-#bazaar{
-    text-align: center;
+#bazaar {
+  text-align: center;
 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
-#bazaar h1{
-    margin: 1.5em;
+#bazaar h1 {
+  margin: 1.5em;
 }
 
-#bazaar p{
-    max-width: 300px;
-    padding: 2em;
+#bazaar p {
+  max-width: 300px;
+  padding: 2em;
 }
 
-#bazaar button{
-    color: #FFF;
-    background-color: #1BD741;
-    border-radius: .7em;
-    padding: 1em 2em;
+#bazaar a {
+  color: #fff;
+  background-color: #f81121;
+  cursor: pointer;
+  border-radius: 0.7em;
+  padding: 1em 2em;
 }
-
