@@ -1,17 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
 :root {
-    --text-color: #000;
-    --emphasis-text-color: #F81121;
-    --emphasis-color: #F81121;
-    --secondary-background: #D3D3D3;
+  --text-color: #000;
+  --emphasis-text-color: #f81121;
+  --emphasis-color: #f81121;
+  --secondary-background: #d3d3d3;
+}
+
+main {
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+body {
+  display: grid;
+  place-items: center;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-family: Montserrat;
-    vertical-align: baseline;
-    text-transform: uppercase;
-    ;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-family: "Source Sans 3", sans-serif;
+  vertical-align: baseline;
+  text-transform: uppercase;
 }
