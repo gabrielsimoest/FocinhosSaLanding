@@ -1,34 +1,4 @@
-header {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(5px);
-}
-
-header section {
-  padding-bottom: 16px;
-  padding-top: 16px;
-}
-
-@media screen and (max-width: 1297px) {
-  header {
-    padding-right: 6rem;
-    padding-left: 6rem;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  header {
-    padding-right: 16px;
-    padding-left: 16px;
-  }
-}
 
 header img {
-  margin-top: 0.5em;
+  margin: 20px;
 }
