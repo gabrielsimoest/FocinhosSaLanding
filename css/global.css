@@ -4,25 +4,31 @@
   --text-color: #000;
   --emphasis-text-color: #f81121;
   --emphasis-color: #f81121;
+  --emphasis-color-light: #f06d76;
   --secondary-background: #d3d3d3;
 }
 
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 @media screen and (min-width: 1297px) {
-  body {
+  section {
     padding-right: 15rem;
     padding-left: 15rem;
   }
 }
 
 @media screen and (max-width: 1297px) {
-  body {
+  section {
     padding-right: 6rem;
     padding-left: 6rem;
   }
 }
 
 @media screen and (max-width: 900px) {
-  body {
+  section {
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -43,6 +49,9 @@ body {
 }
 .section-title {
   text-align: center;
-  margin: 1.5em;
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 500;
 }

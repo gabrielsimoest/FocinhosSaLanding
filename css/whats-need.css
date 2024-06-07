@@ -1,26 +1,25 @@
-#whats-need{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+#whats-need {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
-#whats-need h1{
-    text-align: center;
-    margin: 1.5em;
+#whats-need ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
 }
 
-#whats-need ul{
-    list-style: none;
-    max-width: 300px;
+#whats-need ul li {
+  display: flex;
+  align-items: center;
 }
 
-#whats-need ul li{
-    display: flex;
-}
-
-#whats-need ul li img{
-    width: 32px;
-    height: 32px;
-    margin: 0 .57em;
+#whats-need ul li img {
+  width: 24px;
+  height: 24px;
+  margin: 0 0.57em;
 }

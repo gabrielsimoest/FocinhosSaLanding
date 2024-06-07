@@ -1,6 +1,8 @@
 #bazaar {
   text-align: center;
-
+  background-color: #f6f6f6;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -9,19 +11,7 @@
   align-items: center;
 }
 
-#bazaar h1 {
-  margin: 1.5em;
-}
-
 #bazaar p {
   max-width: 300px;
   padding: 2em;
-}
-
-#bazaar a {
-  color: #fff;
-  background-color: #f81121;
-  cursor: pointer;
-  border-radius: 0.7em;
-  padding: 1em 2em;
 }
